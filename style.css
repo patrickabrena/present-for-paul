@@ -1,0 +1,67 @@
+html {
+  margin: 0 0;
+  font-family: Verdana, sans-serif;
+}
+body {
+  background-color: black;
+  margin: 0 0;
+  padding: 0 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+.middle-container {
+  display: flex;
+  /* width: 462px; */
+  /* height: 100%; */
+
+  justify-content: center;
+}
+img {
+  max-width: min-content;
+  overflow: hidden;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+/*
+media query section
+*/
+@media screen and (max-width: 480px) {
+  html,
+  body {
+    margin: 0;
+    height: 100%;
+    overflow: hidden;
+  }
+  .middle-container {
+    display: flex;
+    width: 462px;
+    height: 100%;
+
+    justify-content: center;
+  }
+  img {
+    height: 100%;
+    overflow: hidden;
+  }
+  .xmas-greeting {
+    color: rgba(225, 22, 22, 0.79);
+    position: fixed;
+    top: 0%;
+  }
+  p {
+    padding: 0;
+    margin: 0;
+  }
+  .apology {
+    position: fixed;
+    line-height: 1.5;
+    width: 200px;
+    font-size: 16px;
+    bottom: 20%;
+    right: 17%;
+    color: rgba(235, 220, 10, 0.81);
+  }
+}
