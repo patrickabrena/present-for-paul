@@ -65,7 +65,7 @@ media query section
     overflow: hidden;
   }
   .xmas-greeting {
-    color: rgba(225, 22, 22, 0.79);
+    color: #ffff;
     position: fixed;
     top: -1%;
     font-family: "Brush Script MT", cursive;
